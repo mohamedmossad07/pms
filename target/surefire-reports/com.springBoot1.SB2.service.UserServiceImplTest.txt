@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.springBoot1.SB2.service.UserServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.085 s <<< FAILURE! - in com.springBoot1.SB2.service.UserServiceImplTest
+assert_return_a_50char_token_and_link_when_resting_password_by_email  Time elapsed: 0.115 s  <<< ERROR!
+org.springframework.mail.MailSendException: 
+Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout -1;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout -1;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.springBoot1.SB2.service.UserServiceImplTest.assert_return_a_50char_token_and_link_when_resting_password_by_email(UserServiceImplTest.java:40)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout -1
+	at com.springBoot1.SB2.service.UserServiceImplTest.assert_return_a_50char_token_and_link_when_resting_password_by_email(UserServiceImplTest.java:40)
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at com.springBoot1.SB2.service.UserServiceImplTest.assert_return_a_50char_token_and_link_when_resting_password_by_email(UserServiceImplTest.java:40)
+

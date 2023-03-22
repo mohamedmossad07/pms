@@ -1,0 +1,15 @@
+com/springBoot1/SB2/repository/AuthorityRepositoryTest.class
+com/springBoot1/SB2/repository/PharmacyRepositoryTest.class
+com/springBoot1/SB2/Sb2ApplicationTests.class
+com/springBoot1/SB2/repository/RoleRepositoryTest.class
+com/springBoot1/SB2/repository/CategoryRepositoryTest.class
+com/springBoot1/SB2/repository/TransactionRepositoryTest.class
+com/springBoot1/SB2/repository/CustomerRepositoryTest.class
+com/springBoot1/SB2/service/UserServiceImplTest.class
+com/springBoot1/SB2/repository/UserRepositoryTest.class
+com/springBoot1/SB2/repository/MedicineRepositoryTest.class
+com/springBoot1/SB2/repository/AddressRepositoryTest.class
+com/springBoot1/SB2/repository/SupplierRepositoryTest.class
+com/springBoot1/SB2/service/UploadServiceImplTest.class
+com/springBoot1/SB2/controller/UserControllerTest.class
+com/springBoot1/SB2/repository/JwtTokenRepositoryTest.class

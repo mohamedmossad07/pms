@@ -1,0 +1,55 @@
+server:
+  port: 1234
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/pharmacy
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 2MB
+      max-request-size: 4MB
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    password: gsqqewgyiognpnov
+    username: mohamedalahlawy07@gmail.com
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+API:
+  URL_PREFIX: /api/v1/
+  DATABASE_ERROR: databasecon
+jwt:
+  secret: 9a02115a835ee03d5fb83cd8a468ea33e4090aaaec87f53c9fa54512bbef4db8dc656c82a315fa0c785c08b0134716b81ddcd0153d2a7556f2e154912cf5675f
+  expirationInMs: 1211100000
+  tokenType: Bearer
+resetPasswordToken:
+  exp: 111111
+  email:
+    from: noreply@contact.com
+    html: true
+uploadPaths:
+  basePath: /home/mohamed/Documents/projects/pharmacy/uploads/
+  medicinePath: medicines
+  userPath: users
+  transactionPath: transactions
+  pathPrefixCount: 10
+#settings:
+#  crossorigin: http://localhost:3000
+notifications:
+  medicineCountLimit: 10
+  fromEmailToSupplier: mohamedalahlawy007@gmail.com
+  html: true
+Scheduling:
+  enable: false
+  daysBeforeAlert: 1
